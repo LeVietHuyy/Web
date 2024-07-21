@@ -1,0 +1,76 @@
+/* ecommerce.css */
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar-inverse {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    color: #fff;
+    background-color: #495057;
+}
+
+/* Dropdown Menu Styles */
+.navbar-inverse .navbar-nav .dropdown-menu {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu > li > a {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:hover,
+.navbar-inverse .navbar-nav .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: #495057;
+}
+
+/* Badge Styles */
+.badge {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+/* Shopping Cart Icon */
+.glyphicon-shopping-cart {
+    color: #fff;
+}
+
+/* User Icon */
+.glyphicon-user {
+    color: #fff;
+}
+
+/* Sign In Modal */
+.modal-content {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.modal-header {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.modal-footer {
+    border-top: 1px solid #dee2e6;
+}
